@@ -18,5 +18,5 @@ for i in range(m): # Recorre las columnas
         suma += matriz[j][i]
     if suma > 50:
         print(f"La columna {i+1} ha excedido la cantidad")
-        break
-    print(f"La suma de la columna {i+1} es {suma}")
+    else:
+        print(f"La suma de la columna {i+1} es {suma}")
